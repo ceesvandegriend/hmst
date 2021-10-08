@@ -20,7 +20,7 @@ jobs:
 
       - name: Get the version
         id: vars
-        run: echo ::set-output name=tag::$(echo ${GITHUB_REF:10})
+        run: echo ::set-output name=tag::$(date +%s)
 
       - name: Set up Docker Buildx
         id: buildx
@@ -33,7 +33,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/hmst:${{ steps.vars.outputs.tag }}
+          tags: ${{ secrets.DOCKER_USER }}/hmst:${{ steps.vars.outputs.tag }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
