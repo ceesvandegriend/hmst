@@ -1,2 +1,3 @@
-# hmst
-Homestead - My personal website build with Hugo.
+# hmst - Homestead
+
+My personal website build with Hugo.
