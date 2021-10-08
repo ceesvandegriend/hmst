@@ -1,7 +1,6 @@
 ---
 title: "Homestead"
 date: 2021-10-08T11:29:51+02:00
-draft: false
 categories: ["hmst"]
 tags: ["hmst", "hugo", "lke"]
 ShowToc: true
