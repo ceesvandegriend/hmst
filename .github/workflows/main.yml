@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Build the Docker image
+    - name: docker login
       run: docker login -u {{ secret.DOCKER_USER }} -p {{ secret.DOCKER_TOKEN }}
+    - name: docker build
       run: docker build . --file Dockerfile --tag ceesvandegriend/hmst:$(date +%s)
+    - name: docker push
       run: docker push ceesvandegriend/hmst:$(date +%s)
