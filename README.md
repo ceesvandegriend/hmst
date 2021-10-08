@@ -1,3 +1,3 @@
 # hmst - Homestead
 
-My personal website build with Hugo.
+My personal website build with [Hugo](https://gohugo.io).
