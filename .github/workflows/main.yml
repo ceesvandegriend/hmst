@@ -1,0 +1,15 @@
+name: Docker Image Push
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the Docker image
+      run: docker login -u {{ secret.DOCKER_USER }} -p {{ secret.DOCKER_TOKEN }}
+      run: docker build . --file Dockerfile --tag ceesvandegriend/hmst:$(date +%s)
+      run: docker push ceesvandegriend/hmst:$(date +%s)
