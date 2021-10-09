@@ -5,6 +5,7 @@ categories: ["Homestead"]
 tags: ["docker", "hugo", "nginx"]
 ShowToc: false
 TocOpen: false
+weight: 50
 ---
 
 ## Problem

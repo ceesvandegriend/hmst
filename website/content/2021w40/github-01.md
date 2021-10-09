@@ -6,6 +6,7 @@ categories: ["Homestead"]
 tags: ["github", "hmst"]
 ShowToc: false
 TocOpen: false
+weight: 50
 ---
 
 GitHub action to reload the Kubernetes is working.
@@ -14,7 +15,7 @@ Now the flow is:
 * Work on content
 * Commit and push changes to GitHub
 * GitHub action:
-  * build container imgae
+  * build container image
   * push container image to GitHub Container Registery
   * kubectl to rollout the new images
 

@@ -5,6 +5,7 @@ categories: ["Homestead"]
 tags: ["hmst", "hugo", "lke"]
 ShowToc: true
 TocOpen: true
+weight: 50
 ---
 
 I just started a new project on GitHub:

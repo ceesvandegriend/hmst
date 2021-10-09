@@ -5,6 +5,7 @@ date: 2021-10-09T10:10:30+02:00
 tags: ["lke"]
 ShowToc: false
 TocOpen: false
+weight: 50
 ---
 
 ## linode-cli

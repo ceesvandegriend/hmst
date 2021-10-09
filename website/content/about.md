@@ -19,7 +19,17 @@ I'm working with Linux since the fall of 1993 when
   [Transip](https://www.transip.nl/)
 
 
-## Server administration
+## Operating Systems
+
+* MacOS
+* Linux
+  * CentOS 
+  * Debian
+  * RedHat Enterprise Linux
+  * Ubuntu 
+
+
+## Server management
 
 * Database: MariaDB, MySQL, Oracle RDBMS, PostgreSQL, SQLite
 * DNS: Bind
@@ -33,6 +43,12 @@ I'm working with Linux since the fall of 1993 when
 * Ansible
 * Puppet
 * Terraform
+
+
+## Container management
+
+* Docker
+* Kubernetes
 
 
 ## Programming languages
@@ -49,4 +65,4 @@ I'm working with Linux since the fall of 1993 when
 * SQL
 * Scripting: bash, zsh
 
-and probably a couple more that I just forgot.
+... and probably a couple more that I just forgot.
