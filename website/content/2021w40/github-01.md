@@ -1,0 +1,42 @@
+---
+title: "Github actions"
+date: 2021-10-09T12:06:48+02:00
+# draft: true
+categories: ["Homestead"]
+tags: ["github", "hmst"]
+ShowToc: false
+TocOpen: false
+---
+
+GitHub action to reload the Kubernetes is working.
+
+Now the flow is:
+* Work on content
+* Commit and push changes to GitHub
+* GitHub action:
+  * build container imgae
+  * push container image to GitHub Container Registery
+  * kubectl to rollout the new images
+
+
+```yaml
+name: Kubernetes
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions-hub/kubectl@master
+      env:
+        KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+      with:
+        args: get pod
+    - uses: actions-hub/kubectl@master
+      env:
+        KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+      with:
+        args: rollout restart deployment static-site-deployment
+``` 
+
+The kubeconfig is base64 encoded and stored in the repository secret.
