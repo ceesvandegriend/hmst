@@ -1,7 +1,7 @@
 ---
 title: "Docker"
 date: 2021-10-08T11:29:51+02:00
-categories: ["hmst"]
+categories: ["Homestead"]
 tags: ["docker", "hugo", "nginx"]
 ShowToc: false
 TocOpen: false

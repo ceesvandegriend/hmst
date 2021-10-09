@@ -1,5 +1,5 @@
 baseURL: "https://www.griend.dev/"
-title: Cees van de Griend
+title: "Cees van de Griend"
 paginate: 10
 theme: papermod
 
@@ -16,7 +16,7 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Griend.Dev
+    title: Griend.dev
     description: "Personal website of Cees van de Griend"
     keywords: [Blog]
     author: Cees van de Griend
@@ -36,8 +36,8 @@ params:
     comments: false
     hidemeta: false
     hideSummary: false
-    showtoc: true
-    tocopen: true
+    showtoc: false
+    tocopen: false
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -49,7 +49,7 @@ params:
         # safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Griend.Dev"
+        text: "Griend.dev"
         # icon: /apple-touch-icon.png
         iconHeight: 35
 
@@ -71,7 +71,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Welcome"
-        Content: This is the personal website of a DevOps / Linux engineer.
+        Content: This is the personal website of a DevOps / Linux Engineer.
 
     socialIcons:
         # - name: twitter
@@ -122,6 +122,14 @@ menu:
           name: tags
           url: /tags/
           weight: 20
+        - identifier: about
+          name: about
+          url: /about/
+          weight: 80
+        - identifier: copyright
+          name: copyright
+          url: /copyright/
+          weight: 90
         # - identifier: example
         #   name: example.org
         #   url: https://example.org

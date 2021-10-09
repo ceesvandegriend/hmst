@@ -1,5 +1,6 @@
 FROM debian:bullseye
 RUN apt-get update && apt-get -y full-upgrade && apt-get install -y hugo nginx && apt-get clean
+COPY conf/nginx.conf /etc/nginx/nginx.conf
 COPY . /hmst
 RUN hugo -v --source=/hmst/website --destination=/var/www/html
 EXPOSE 80
