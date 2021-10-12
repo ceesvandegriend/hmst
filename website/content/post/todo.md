@@ -19,3 +19,5 @@ weight: 10
 
 * Puzzler
   * Install Metasploit-framework with Ansible 
+  * Install john-the-ripper
+  * Install Burp suite
