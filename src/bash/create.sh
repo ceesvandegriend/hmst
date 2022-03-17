@@ -7,10 +7,11 @@ RG_NAME="rg-web"
 NAME="static-web"
 GITHUB_USER="griend"
 GITHUB_REPO="hmst"
+GITHUB_TOKEN="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"
 
-az group create \
-  --location ${LOCATION} \
-  --name ${RG_NAME}
+# az group create \
+#   --location ${LOCATION} \
+#   --name ${RG_NAME}
 
 az staticwebapp create \
   --name ${NAME} \
@@ -19,4 +20,5 @@ az staticwebapp create \
   --location ${LOCATION} \
   --branch main \
   --app-location "src/site" \
-  --login-with-github
+  --token ${GITHUB_TOKEN}
+# --login-with-github

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lke on Cees van de Griend</title>
+    <link>http://localhost:1313/tags/lke/</link>
+    <description>Recent content in lke on Cees van de Griend</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Oct 2021 10:10:30 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/lke/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kubeconfig</title>
+      <link>http://localhost:1313/post/20211009-lke/</link>
+      <pubDate>Sat, 09 Oct 2021 10:10:30 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211009-lke/</guid>
+      <description>linode-cli Install linode-cli:
+$ python3 -m venv venv $ source venv/bin/activate $ pip3 install linode-cli Collecting linode-cli Using cached linode_cli-5.10.1-py2.py3-none-any.whl (175 kB) Collecting terminaltables Using cached terminaltables-3.1.0.tar.gz (12 kB) Collecting PyYAML Using cached PyYAML-5.4.1-cp39-cp39-manylinux1_x86_64.whl (630 kB) Collecting requests Using cached requests-2.26.0-py2.py3-none-any.whl (62 kB) Collecting urllib3&amp;lt;1.27,&amp;gt;=1.21.1 Using cached urllib3-1.26.7-py2.py3-none-any.whl (138 kB) Collecting charset-normalizer~=2.0.0 Using cached charset_normalizer-2.0.6-py3-none-any.whl (37 kB) Collecting idna&amp;lt;4,&amp;gt;=2.5 Using cached idna-3.2-py3-none-any.whl (59 kB) Collecting certifi&amp;gt;=2017.4.17 Using cached certifi-2021.10.8-py2.py3-none-any.whl (149 kB) Using legacy &amp;#39;setup.</description>
+    </item>
+    
+    <item>
+      <title>Metrics Server</title>
+      <link>http://localhost:1313/post/20211008-metrics-server/</link>
+      <pubDate>Fri, 08 Oct 2021 19:23:37 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211008-metrics-server/</guid>
+      <description>$ kubectl top nodes W1008 19:23:53.157850 69063 top_node.go:119] Using json format to get metrics. Next release will switch to protocol-buffers, switch early by passing --use-protocol-buffers flag error: Metrics API not available See: How Can I Deploy the Kubernetes-Metrics Server on LKE?
+file: metrics-server.yaml kind: ClusterRole apiVersion: rbac.authorization.k8s.io/v1 metadata: name: system:aggregated-metrics-reader labels: rbac.authorization.k8s.io/aggregate-to-view: &amp;quot;true&amp;quot; rbac.authorization.k8s.io/aggregate-to-edit: &amp;quot;true&amp;quot; rbac.authorization.k8s.io/aggregate-to-admin: &amp;quot;true&amp;quot; rules: - apiGroups: [&amp;quot;metrics.k8s.io&amp;quot;] resources: [&amp;quot;pods&amp;quot;, &amp;quot;nodes&amp;quot;] verbs: [&amp;quot;get&amp;quot;, &amp;quot;list&amp;quot;, &amp;quot;watch&amp;quot;] --- apiVersion: rbac.</description>
+    </item>
+    
+    <item>
+      <title>Homestead</title>
+      <link>http://localhost:1313/post/20211008-homestead/</link>
+      <pubDate>Fri, 08 Oct 2021 11:29:51 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211008-homestead/</guid>
+      <description>I just started a new project on GitHub: hmst Homestead.
+This will be my personal website generated with Hugo. The static HTML-pages will run in a container.
+Personal website $ cd .../website/ .../website $ hugo server -D Start building sites … hugo v0.88.1+extended darwin/amd64 BuildDate=unknown | EN -------------------+----- Pages | 15 Paginator pages | 0 Non-page files | 0 Static files | 0 Processed images | 0 Aliases | 4 Sitemaps | 1 Cleaned | 0 Built in 30 ms Watching for changes in /Users/cees/prj/hmst/website/{archetypes,content,data,layouts,static,themes} Watching for config changes in /Users/cees/prj/hmst/website/config.</description>
+    </item>
+    
+  </channel>
+</rss>

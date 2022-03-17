@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TryHackMe on Cees van de Griend</title>
+    <link>http://localhost:1313/categories/tryhackme/</link>
+    <description>Recent content in TryHackMe on Cees van de Griend</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Oct 2021 18:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe - Burp Suite</title>
+      <link>http://localhost:1313/post/20211023-burp_suite/</link>
+      <pubDate>Sat, 23 Oct 2021 18:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211023-burp_suite/</guid>
+      <description>Key Value     Room rpburpsuite   Date 2021-10-14   User wastebasket    Task 1: Intro Task 2: Installation   If you&amp;rsquo;ll be installing Burp (as it&amp;rsquo;s commonly referred to) from scratch, you&amp;rsquo;ll need to first visit this link: https://portswigger.net/burp/communitydownload
+  Once you&amp;rsquo;ve reached the Port Swigger downloads page, go ahead and download the appropriate version for your operating system</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe Certificate</title>
+      <link>http://localhost:1313/post/20211014-tryhackme/</link>
+      <pubDate>Thu, 14 Oct 2021 16:21:16 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211014-tryhackme/</guid>
+      <description>Today I finished the Pre-Security Path on TryHackMe
+It was fun, a hands on expirience with basic knowledge of:
+ Internet Protocols OSI model TCP/IP, UDP/IP, ICMP Linux Windows  To be honest, must questions I could answer out of mu head, I just struggled with the Windows stuff. Of course, I am a hardcore Linux system adminstrator and up until know I had never even glanced at Windows administration, so it was a bit of fun to walk on the dark side.</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - Windows Fundamentals 3</title>
+      <link>http://localhost:1313/post/20211014-windowsfundamentals3xzx/</link>
+      <pubDate>Thu, 14 Oct 2021 14:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211014-windowsfundamentals3xzx/</guid>
+      <description>Key Value     Room windowsfundamentals3xzx   Date 2021-10-14   User wastebasket    Task 1: Introduction Read above and start the virtual machine.
+Task 2: Windows Updates There were two definition updates installed in the attached VM. On what date were these updates installed?
+5/3/2021
+Task 3: Windows Security In the above image, which area needs immediate attention?
+virus &amp;amp; threat protection</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - Windows Fundamentals 2</title>
+      <link>http://localhost:1313/post/20211014-windowsfundamentals2x0x/</link>
+      <pubDate>Thu, 14 Oct 2021 13:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211014-windowsfundamentals2x0x/</guid>
+      <description>Key Value     Room windowsfundamentals2x0x   Date 2021-10-14   User wastebasket    Task 1: Introduction Read above and start the virtual machine.
+Task 2: System Configuration What is the name of the service that lists Systems Internals as the manufacturer?
+psshutdown
+Whom is the Windows license registered to?
+Windows user
+What is the command for Windows Troubleshooting?
+C:\Windows\System32\control.exe /name Microsoft.Troubleshooting</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - Windows Fundamentals 1</title>
+      <link>http://localhost:1313/post/20211014-windowsfundamentals1xbx/</link>
+      <pubDate>Thu, 14 Oct 2021 12:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211014-windowsfundamentals1xbx/</guid>
+      <description>Key Value     Room windowsfundamentals1xbx   Date 2021-10-14   User wastebasket    Task 1: Introduction to Windows Read above and start the virtual machine.
+Task 2: Windows Editions What encryption can you enable on Pro that you can&amp;rsquo;t enable in Home?
+Bitlocker
+Task 3: The Desktop (GUI) Which selection will hide/disable the Search box?
+Hidden
+Which selection will hide/disable the Task View button?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - Putting it all together</title>
+      <link>http://localhost:1313/post/20211013-puttingitalltogether/</link>
+      <pubDate>Wed, 13 Oct 2021 13:02:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-puttingitalltogether/</guid>
+      <description>Key Value     Room puttingitalltogether   Date 2021-10-13   User wastebasket    Task 1: Putting It All Together I&amp;rsquo;ve read this&amp;hellip;
+Task 2: Other Components What can be used to host static files and speed up a clients visit to a website?
+CDN
+What does a load balancer perform to make sure a host is still alive?
+health check
+What can be used to help against the hacking of a website?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - HTTP in Detail</title>
+      <link>http://localhost:1313/post/20211013-httpindetail/</link>
+      <pubDate>Wed, 13 Oct 2021 13:01:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-httpindetail/</guid>
+      <description>Key Value     Room httpindetail   Date 2021-10-13   User wastebasket    Task 1: What is HTTP(S)? What does HTTP stand for?
+HyperText Transfer Protocol
+What does the S in HTTPS stand for?
+Secure
+On the mock webpage on the right there is an issue, once you&amp;rsquo;ve found it, click on it. What is the challenge flag?
+THM{INVALID_HTTP_CERT}
+Task 2: Requests And Responses What HTTP protocol is being used in the above example?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - DNS in Detail</title>
+      <link>http://localhost:1313/post/20211013-dnsindetail/</link>
+      <pubDate>Wed, 13 Oct 2021 13:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-dnsindetail/</guid>
+      <description>Key Value     Room dnsindetail   Date 2021-10-13   User wastebasket    Task 1: What is DNS? What does DNS stand for?
+Domain Name System
+Task 2: Domain Hierarchy What is the maximum length of a subdomain?
+63
+Which of the following characters cannot be used in a subdomain ( 3 b _ - )?
+_
+What is the maximum length of a domain name?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - Extending Your Network</title>
+      <link>http://localhost:1313/post/20211013-extendingyournetwork/</link>
+      <pubDate>Wed, 13 Oct 2021 12:03:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-extendingyournetwork/</guid>
+      <description>Key Value     Room extendingyournetwork   Date 2021-10-13   User wastebasket    Task 1: Introduction to Port Forwarding What is the name of the device that is used to configure port forwarding?
+router
+Task 2: Firewalls 101 What layers of the OSI model do firewalls operate at?
+Layer 3,Layer 4
+What category of firewall inspects the entire connection?
+statefull
+What category of firewall inspects individual packets?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - Packets &amp; Frames</title>
+      <link>http://localhost:1313/post/20211013-packetsframes/</link>
+      <pubDate>Wed, 13 Oct 2021 12:03:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-packetsframes/</guid>
+      <description>Key Value     Room packetsframes   Date 2021-10-13   User wastebasket    Task 1: What are Packets and Frames What is the name for a piece of data when it does have IP addressing information?
+packet
+What is the name for a piece of data when it does not have IP addressing information?
+frame
+Task 2: TCP/IP (The Three-Way Handshake) What is the header in a TCP packet that ensures the integrity of data?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - OSI Model</title>
+      <link>http://localhost:1313/post/20211013-osimodel/</link>
+      <pubDate>Wed, 13 Oct 2021 12:02:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-osimodel/</guid>
+      <description>Key Value     Room osimodelzi   Date 2021-10-13   User wastebasket    Task 1: What is the OSI Model? What does the &amp;ldquo;OSI&amp;rdquo; in &amp;ldquo;OSI Model&amp;rdquo; stand for?
+Open Systems Interconnection
+How many layers (in digits) does the OSI model have?
+7
+What is the key term for when pieces of information get added to data?
+encapsulation
+Task 2: Layer 7 - Application What is the name of this Layer?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - What is networking?</title>
+      <link>http://localhost:1313/post/20211013-whatisnetworking/</link>
+      <pubDate>Wed, 13 Oct 2021 12:01:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-whatisnetworking/</guid>
+      <description>Key Value     Room whatisnetworking   Date 2021-10-13   User wastebasket    Task 1: What is networking? What is the key term for devices that are connected together?
+network
+Task 2: What is the Internet? Who invented the World Wide Web?
+Tim Berners-Lee
+Task 3: Identifying Devices on a Network What does the term &amp;ldquo;IP&amp;rdquo; stand for?
+Internet Protocol
+What is each section of an IP address called?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe - Intro to LAN</title>
+      <link>http://localhost:1313/post/20211013-introtolan/</link>
+      <pubDate>Wed, 13 Oct 2021 12:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211013-introtolan/</guid>
+      <description>Key Value     Room introtolan   Date 2021-10-13   User wastebasket    Task 1: Introducing LAN Topologies What does LAN stand for?
+Local Area Network
+What is the verb given to the job that Routers perform?
+routing
+What device is used to centrally connect multiple devices on the local network and transmit data to the correct location?
+switch
+What topology is cost-efficient to set up?</description>
+    </item>
+    
+    <item>
+      <title>TryHackMe</title>
+      <link>http://localhost:1313/post/20211012-tryhackme/</link>
+      <pubDate>Tue, 12 Oct 2021 09:50:55 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/20211012-tryhackme/</guid>
+      <description>I just started on TryHackMe with &amp;lsquo;Hacking for Fun&amp;rsquo;. It looks like I could learn a lot about Cyber Security in a fun way, almost like playing a game.
+pzzl is updated to install CyberSecurity tools with Ansible.
+I know all the cool kids use Kali Linux, but Debian is my trusted distribution sinds Debian 2.2 (Potato) in 2000.
+I prefer to install my own software, so I know exactly what is installed.</description>
+    </item>
+    
+  </channel>
+</rss>
