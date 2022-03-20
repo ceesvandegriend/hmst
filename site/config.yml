@@ -98,7 +98,7 @@ params:
 
     editPost:
         # URL: "https://github.com/<path_to_repo>/content"
-        URL: "https://github.com/ceesvandegriend/hmst/tree/main/website/content"
+        URL: "https://github.com/ceesvandegriend/hmst/tree/main/site/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
