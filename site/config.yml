@@ -1,7 +1,7 @@
 baseURL: "https://www.griend.dev/"
 title: "Cees van de Griend"
 paginate: 10
-theme: papermod
+theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
